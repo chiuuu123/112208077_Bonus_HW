@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+form {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3%;
+  font-family: "Arial";
+}
+
+.form-group {
+  overflow: hidden;
+  margin-bottom: 2.5%;
+}
+
+label {
+  font-weight: bold;
+  width: 10%;
+  text-align: right;
+  margin-right: 5%;
+  float: left;
+  margin-top: 1%;
+}
+
+input[type="text"], textarea {
+  width: 85%;
+  padding: 1%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  float: left;
+} 
+
+#input4 {
+  width: 70%;
+}
+
+textarea {
+  resize: none;
+}
+
+.form-row {
+  overflow: hidden;
+}
+
+.form-row .form-group {
+  width: 50%;
+  float: left;
+}
+
+.form-row .form-group label[for="input2"] {
+  width: 20%;
+  margin-top: 2%;
+}
+
+.form-row .form-group label[for="input3"] {
+  margin-left: 10%;
+  width: 20%;
+  margin-top: 2%;
+}
+
+.form-row .form-group input[type="text"] {
+  width: 60%;
+  padding: 2%;
+  margin-left: 5%;
+}
+
+#picture1 {
+  width: 85%;
+  height: auto;
+  object-fit: cover;
+}
